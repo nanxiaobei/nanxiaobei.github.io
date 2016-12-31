@@ -1,15 +1,80 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>南小北在说什么</title>
+    <title>南小北</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
     <style>
-        html, body { height: 100%; }
-        body { display: flex; justify-content: center; align-items: center; flex-direction: column; background: #282828; color: #fff; margin: 0; }
-        a { color: inherit; text-decoration: underline; }
+        html {
+            background: url(bg.jpg) no-repeat center / cover fixed;
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        body {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            top: 25%;
+            left: 50%;
+            right: 50%;
+            transform: translate(-7.8vh, 0);
+        }
+        img {
+            width: 15vh;
+            height: 15vh;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,0.2);
+            margin-bottom: 2.5vh;
+        }
+        #tagline, #lee {
+            color: white;
+            font-size: 3.5vh;
+            width: 10vh;
+            transform: translate(2.6vh, 0);
+        }
+        #tagline {
+            color: rgba(255,255,255,0.33);
+        }
+        #changelog {
+            margin-top: 8vh;
+            transform: translate(-7.2vh, 0);
+            width: 30vh;
+        }
+        a, small {
+            text-align: center;
+            display: block;
+            font-family: 'Abel', Arial, sans-serif;
+            white-space: nowrap;
+        }
+        a {
+            font-size: 3vh;
+            color: rgba(255,255,255,0.4);
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+        }
+        small {
+            display: block;
+            font-size: 1.6vh;
+            color: rgba(255,255,255,0.33);
+        }
+        #play::after {
+            content: "\25B6 \FE0E";
+            font-size: 90%;
+        }
     </style>
 </head>
 <body>
-    <h1>Hi, I'm Lee</h1>
-    <p>Find me <a href="http://mrlee.me/">here</a>.</p>
+    <img src="lee.jpg">
+    <div id="lee">南小北</div>
+    <div id="tagline">Artist<br>Director<br>Writer</span></div>
+    <div id="changelog">
+        <a href="http://mrlee.me"><span id="play"></span>MRLEE.ME</a>
+        <small>nanxiaobei's personal website.</small>
+    </div>
 </body>
 </html>
