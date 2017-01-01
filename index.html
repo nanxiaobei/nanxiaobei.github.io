@@ -2,18 +2,16 @@
 <head>
     <title>南小北</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
     <style>
-        html {
-        }
         body {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            background: linear-gradient(30deg,#8C4972,#E55161,#915F88,#08376D,#01396A,#011A34);
+            background: url(bg.jpg) center / cover no-repeat fixed;
             font-family: 'Raleway', 'Microsoft Yahei Light', sans-serif;
             margin: 0;
         }
@@ -24,14 +22,14 @@
             border-radius: 50%;
             margin-bottom: 2.5vh;
         }
-        #lee, #tagline {
+        .lee, .tagline {
             font-size: 3.5vh;
             width: 12vh;
         }
-        #lee {
+        .lee {
             color: #fff;
         }
-        #tagline {
+        .tagline {
             color: rgba(255,255,255,0.33);
         }
         #site {
@@ -57,7 +55,7 @@
             font-size: 1.6vh;
             color: rgba(255,255,255,.33);
         }
-        #play::after {
+        .play:after {
             content: "\25B6 \FE0E";
             font-size: 90%;
         }
@@ -65,10 +63,10 @@
 </head>
 <body>
     <img src="lee.jpg">
-    <div id="lee">Nanxiabei</div>
-    <div id="tagline">Artist<br>Director<br>Writer</span></div>
-    <div id="site">
-        <a href="http://mrlee.me"><span id="play"></span> MRLEE.ME</a>
+    <div class="lee">南小北</div>
+    <div class="tagline">Artist<br>Director<br>Writer</span></div>
+    <div class="site">
+        <a href="http://mrlee.me"><span class="play"></span> MRLEE.ME</a>
         <small>Personal Website for <i>Lee</i></small>
     </div>
 </body>
