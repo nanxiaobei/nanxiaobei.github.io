@@ -1,2 +1,2 @@
 # nanxiaobei.github.io
-[nanxiaobei.github.i](https://nanxiaobei.github.io/)
+[nanxiaobei.github.io](https://nanxiaobei.github.io/)
