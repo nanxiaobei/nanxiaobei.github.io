@@ -58,6 +58,15 @@
             content: "\25B6 \FE0E";
             font-size: 90%;
         }
+        input[type='text'] {
+            border: 0;
+            outline: 0;
+            border-radius: 2px;
+            box-shadow: 0 0 0 1px #ddd;
+        &:focus {
+             box-shadow: 0 0 0 1px #ddd;
+         }
+        }
     </style>
 </head>
 <body>
@@ -68,5 +77,6 @@
         <a href="http://mrlee.me"><span class="play"></span> MRLEE.ME</a>
         <small>Personal Website for <i>Lee</i></small>
     </div>
+    <input type="text"/>
 </body>
 </html>
