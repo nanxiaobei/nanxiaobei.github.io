@@ -1,2 +1,2 @@
-# Mr. Lee's Personal Page
+# Mr. Lee's Page
 [nanxiaobei.github.io](https://nanxiaobei.github.io/)
