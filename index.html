@@ -1,73 +1,85 @@
 <html>
-<head>
+  <head>
     <title>南小北</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel" />
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Raleway', 'Microsoft Yahei Light', sans-serif;
-            background: url(bg.jpg) center / cover no-repeat fixed;
-        }
-        img {
-            width: 15vh;
-            height: 15vh;
-            border: 1px solid rgba(255,255,255,.1);
-            border-radius: 50%;
-            margin-bottom: 2.5vh;
-        }
-        .name, .tagline {
-            font-size: 3.5vh;
-            width: 12vh;
-            transform: translate(1vh,0);
-        }
-        .name {
-            color: #fff;
-        }
-        .tagline {
-            color: rgba(255,255,255,.33);
-        }
-        .site {
-            text-align: center;
-            margin-top: 8vh;
-        }
-        a, small {
-            font-family: 'Abel', Arial, sans-serif;
-            white-space: nowrap;
-        }
-        a {
-            font-size: 3vh;
-            color: rgba(255,255,255,.4);
-            text-decoration: none;
-        }
-        a:hover {
-            color: #fff;
-        }
-        small {
-            display: block;
-            font-size: 1.6vh;
-            color: rgba(255,255,255,.33);
-        }
-        .play:after {
-            content: "\25B6 \FE0E";
-            font-size: 90%;
-        }
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Raleway', 'Microsoft Yahei Light', sans-serif;
+        background: url(bg.jpg) center / cover no-repeat fixed;
+      }
+
+      img {
+        width: 15vh;
+        height: 15vh;
+        margin-bottom: 2.5vh;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+      }
+
+      .name,
+      .tagline {
+        width: 12vh;
+        font-size: 3.5vh;
+        transform: translate(1vh, 0);
+      }
+
+      .name {
+        color: #fff;
+      }
+
+      .tagline {
+        color: rgba(255, 255, 255, 0.33);
+      }
+
+      .site {
+        margin-top: 8vh;
+        text-align: center;
+      }
+
+      a,
+      small {
+        font-family: 'Abel', Arial, sans-serif;
+        white-space: nowrap;
+      }
+
+      a {
+        font-size: 3vh;
+        color: rgba(255, 255, 255, 0.4);
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #fff;
+      }
+
+      small {
+        display: block;
+        font-size: 1.6vh;
+        color: rgba(255, 255, 255, 0.33);
+      }
+
+      .play::after {
+        font-size: 90%;
+        content: '\25B6 \FE0E';
+      }
     </style>
-</head>
-<body>
-    <img src="lee.jpg">
+  </head>
+  <body>
+    <img src="lee.jpg" />
     <div class="name">南小北</div>
-    <div class="tagline">Artist<br>Director<br>Writer</div>
+    <div class="tagline">Artist<br />Director<br />Writer</div>
     <div class="site">
-        <a href="http://mrlee.me"><span class="play"></span> MRLEE.ME</a>
-        <small>Personal Website for <i>Lee</i></small>
+      <a href="http://lee.so/"><span class="play"></span> LEE.SO</a>
+      <small>Personal Website for <i>Lee</i></small>
     </div>
-</body>
+  </body>
 </html>
